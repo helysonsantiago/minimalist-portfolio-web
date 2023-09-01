@@ -12,7 +12,6 @@ export const ContainerHome = styled.div<propsHome>`
   text-align: center;
   color: var(--text-green);
   background-color: mintcream;
-  overflow: hidden;
   & div {
     width: 70%;
     height: 90%;
@@ -27,7 +26,7 @@ export const ContainerHome = styled.div<propsHome>`
     }
   }
   & h1 {
-    font-size: 65px;
+    font-size: 62px;
     & span {
       color: var(--primary-color);
     }
@@ -38,7 +37,7 @@ export const ContainerHome = styled.div<propsHome>`
     }
   }
   & h3 {
-    font-size: 38px;
+    font-size: 35px;
     margin-top: 20px;
 
     @media (max-width: 900px) {
@@ -46,8 +45,8 @@ export const ContainerHome = styled.div<propsHome>`
     }
   }
   & p {
-    margin-top: 27px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 15px;
     min-height: 25%;
     max-height: 20%;
     line-height: 36px;
@@ -66,8 +65,8 @@ export const ContainerHome = styled.div<propsHome>`
   }
   & img {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     animation: anim 6s linear infinite alternate;
 
     @keyframes anim {
@@ -99,7 +98,6 @@ export const ContainerHome = styled.div<propsHome>`
 `;
 
 export const LinksHome = styled.span<propsHome>`
-  margin-top: 20px;
   min-height: 90px;
   width: 447px;
   border-radius: 100px;

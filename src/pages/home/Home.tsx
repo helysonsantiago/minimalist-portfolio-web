@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ContainerHome, LinksHome } from './stylesHome';
+import { ContainerHome, LinksHome } from '../home/stylesHome';
 import i from '../../assets/1691085751995.jpeg';
 import { FaDev, FaGithubSquare } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';

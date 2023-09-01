@@ -56,13 +56,13 @@ const Home = (props: IHomeProps): React.ReactElement => {
           Moro em São Paulo/SP-ZS, estou me formando em engenharia da computação.<span dangerouslySetInnerHTML={{ __html: resultado }} />
         </p>
         <LinksHome>
-          <a href="/#">
+          <a href="https://dev.to/helysonsantiago" target='blank_'>
             <FaDev />
           </a>
-          <a href="/#">
+          <a href="https://www.linkedin.com/in/helyson-santiago-844935233/" target='blank_'>
             <BsLinkedin />
           </a>
-          <a href="">
+          <a href="https://github.com/helysonsantiago" target='blank_'>
             <FaGithubSquare />
           </a>
         </LinksHome>

@@ -51,7 +51,6 @@ Error generating stack: `+o.message+`
   text-align: center;
   color: var(--text-green);
   background-color: mintcream;
-  overflow: hidden;
   & div {
     width: 70%;
     height: 90%;
@@ -66,7 +65,7 @@ Error generating stack: `+o.message+`
     }
   }
   & h1 {
-    font-size: 65px;
+    font-size: 62px;
     & span {
       color: var(--primary-color);
     }
@@ -77,7 +76,7 @@ Error generating stack: `+o.message+`
     }
   }
   & h3 {
-    font-size: 38px;
+    font-size: 35px;
     margin-top: 20px;
 
     @media (max-width: 900px) {
@@ -85,8 +84,8 @@ Error generating stack: `+o.message+`
     }
   }
   & p {
-    margin-top: 27px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 15px;
     min-height: 25%;
     max-height: 20%;
     line-height: 36px;
@@ -105,8 +104,8 @@ Error generating stack: `+o.message+`
   }
   & img {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     animation: anim 6s linear infinite alternate;
 
     @keyframes anim {
@@ -136,7 +135,6 @@ Error generating stack: `+o.message+`
     height: auto;
   }
 `,T1=co.span`
-  margin-top: 20px;
   min-height: 90px;
   width: 447px;
   border-radius: 100px;
@@ -196,4 +194,4 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-weight: 600;
-`,A1=()=>B.jsx(F1,{children:B.jsx("p",{children:"2023 — Coded By Helyson  ☕︎ 🇧🇷 "})}),U1=()=>B.jsxs(B.Fragment,{children:[B.jsx(D1,{}),B.jsx(A1,{}),B.jsx(M1,{})]});Qo.createRoot(document.getElementById("root")).render(B.jsx(le.StrictMode,{children:B.jsx(U1,{})}));
+`,A1=()=>B.jsx(F1,{children:B.jsx("p",{children:"2023 — Coded By Helyson ☕︎ 🇧🇷 "})}),U1=()=>B.jsxs(B.Fragment,{children:[B.jsx(D1,{}),B.jsx(A1,{}),B.jsx(M1,{})]});Qo.createRoot(document.getElementById("root")).render(B.jsx(le.StrictMode,{children:B.jsx(U1,{})}));

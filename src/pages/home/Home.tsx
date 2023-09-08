@@ -50,7 +50,7 @@ const Home = (): React.ReactElement => {
         <h1>
           Olá, sou <span>Helyson Santiago</span> .
         </h1>
-        <h3>Desenvolvedor de Software</h3>
+        <h3>Engenheiro de Software</h3>
         <p>
           Moro em São Paulo/SP-ZS, estou me formando em engenharia da computação.<span dangerouslySetInnerHTML={{ __html: resultado }} />
         </p>

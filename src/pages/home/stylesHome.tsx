@@ -93,7 +93,10 @@ export const ContainerHome = styled.div<propsHome>`
   }
 
   @media (max-width: 900px) {
-    height: auto;
+    height: 150vh;
+  }
+  @media (max-width: 320px) {
+    height: 170vh;
   }
 `;
 
@@ -124,4 +127,8 @@ export const LinksHome = styled.span<propsHome>`
     width: 90%;
     font-size: 35px;
   }
+
+  @media (max-width: 320px) {
+   margin-top: 70px;
+ }
 `;

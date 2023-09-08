@@ -109,7 +109,7 @@ export const LinksHome = styled.span<propsHome>`
   align-items: center;
   justify-content: space-around;
   font-size: 40px;
-  
+
   & a {
     color: mintcream;
     display: inherit;
@@ -130,6 +130,6 @@ export const LinksHome = styled.span<propsHome>`
   }
 
   @media (max-width: 320px) {
-   margin-top: 70px;
+   margin-top: 71px;
  }
 `;

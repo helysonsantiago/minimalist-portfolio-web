@@ -130,6 +130,6 @@ export const LinksHome = styled.span<propsHome>`
   }
 
   @media (max-width: 320px) {
-   margin-top: 71px;
+   margin-top: 70px;
  }
 `;

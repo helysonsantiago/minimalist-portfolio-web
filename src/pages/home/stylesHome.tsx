@@ -109,6 +109,7 @@ export const LinksHome = styled.span<propsHome>`
   align-items: center;
   justify-content: space-around;
   font-size: 40px;
+  
   & a {
     color: mintcream;
     display: inherit;
